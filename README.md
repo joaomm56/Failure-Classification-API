@@ -63,18 +63,4 @@ An incident is **not**:
 - `cache`
 - `network`
 
----
 
-## Incident Input Model (v1)
-
-```json
-{
-  "system": "api",
-  "component": "database",
-  "error_type": "timeout",
-  "duration_seconds": 18,
-  "frequency_last_24h": 6,
-  "load": 0.92,
-  "deployment_recent": true,
-  "affected_users": 200
-}
